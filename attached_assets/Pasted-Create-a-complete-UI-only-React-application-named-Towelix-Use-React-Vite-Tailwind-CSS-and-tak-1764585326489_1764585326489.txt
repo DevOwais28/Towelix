@@ -1,0 +1,235 @@
+Create a complete UI-only React application named “Towelix”.
+Use React + Vite + Tailwind CSS and take visual inspiration from this site:
+https://unitedtowel.com/
+
+This project is UI only, meaning:
+
+No backend
+
+No API requests
+
+Use dummy JSON data for users, orders, and products
+
+Role selection should be simulated using local state or context
+
+🎭 Roles (UI Simulation Only)
+
+There are 2 roles:
+
+Owner / Manufacturer (Admin)
+
+Customer
+
+Create a temporary login page that allows selecting:
+
+“Login as Owner”
+
+“Login as Customer”
+
+Based on role, render UI accordingly.
+
+Store role in React Context.
+
+📁 Pages To Build
+1. Home Page
+
+Inspired by unitedtowel.com:
+
+Hero section (large fabric/towel-themed hero)
+
+Product categories:
+
+Bath Towels
+
+Hand Towels
+
+Beach Towels
+
+Bathrobes
+
+Hotel Towels
+
+Featured products
+
+Manufacturing / quality / sustainability section
+
+2. Products (Shop)
+
+Grid listing of towels
+
+Filters (UI only):
+
+Category
+
+Material
+
+Design
+
+Each product card shows:
+
+Image
+
+Name
+
+Material
+
+Design
+
+3. Product Detail Page
+
+Show these UI sections:
+
+Large product preview
+
+Material details
+
+Sizes & colors
+
+Towel design patterns
+
+Related products
+
+4. About Us Page
+
+Inspired by UnitedTowel → include UI sections:
+
+“Who We Are”
+
+“Our Manufacturing Quality”
+
+“Global Export Experience”
+
+“Our Values & Mission”
+
+5. Customer Profile Page
+
+Personal info (UI only)
+
+Order history (dummy data)
+
+6. Admin Dashboard (Owner UI)
+
+Include UI sections:
+
+Dashboard cards:
+
+Total orders
+
+Total customers
+
+Repeat customers
+
+Revenue (dummy)
+
+Table of all orders (dummy JSON)
+
+For each customer: show how many times they ordered
+
+Product management UI (no backend):
+
+Add product modal (UI only)
+
+Edit product modal (UI only)
+
+Delete confirmation modal (UI only)
+
+7. Navbar (Role Based)
+
+Both users:
+
+Home
+
+Products
+
+About Us
+
+Customer only:
+
+My Orders
+
+Profile
+
+Owner only:
+
+Admin Dashboard
+
+Manage Products
+
+All Orders
+
+Right side of navbar:
+
+Profile avatar with dropdown
+
+📁 Components to Create
+
+Navbar (role-based rendering)
+
+Footer
+
+ProductCard
+
+ProductDetailLayout
+
+DashboardCard
+
+OrderTable
+
+Sidebar for admin pages
+
+ProtectedRoute (UI-only check)
+
+Modal components
+
+📦 Dummy Data Required
+
+Create JSON files inside /data/ folder:
+
+products.json
+
+orders.json
+
+customers.json
+
+Example fields:
+
+product: { id, name, category, material, design, images }
+order: { id, customerName, orderCount, items, date }
+customer: { id, name, totalOrders }
+
+📂 Folder Structure
+src/
+  components/
+  pages/
+  admin/
+  data/
+  context/
+  App.jsx
+  main.jsx
+
+✨ Style Requirements
+
+Fully responsive
+
+Tailwind CSS
+
+Minimal clean design
+
+White / navy / grey / textile-inspired colors
+
+Inspired by premium textile / manufacturer websites
+
+Smooth animations using Framer Motion (optional)
+
+Generate the full UI in clean React code. No backend. Only UI functionality.
+
+If you want, I can now generate:
+
+✅ Skeleton folder structure
+✅ All component code
+✅ Dummy product & order JSON
+✅ Full UI implementation in React
+
+Just say “generate full UI code”.
+
+ChatGPT can make mistakes. Check important info.
